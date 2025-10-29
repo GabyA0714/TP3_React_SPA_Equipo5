@@ -1,0 +1,31 @@
+.integrantes-page {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.integrantes-page h1 {
+  color: #a5f3fc;
+  text-shadow: 0 0 10px #22d3ee99;
+  margin-bottom: 0.5rem;
+}
+
+.integrantes-page p {
+  color: #94a3b8;
+  margin-bottom: 1.5rem;
+}
+
+.grid-integrantes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1rem;
+  justify-content: center;
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease;
+}
+.card-link:hover {
+  transform: scale(1.03);
+}

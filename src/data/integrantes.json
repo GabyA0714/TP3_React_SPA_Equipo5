@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "nombre": "Gabriela",
+    "ciudad": "Buenos Aires",
+    "edad": 44,
+    "habilidades": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React"
+    ],
+    "peliculas": [
+      "Sexto Sentido ",
+      "El Conjuro",
+      "It"
+    ],
+    "musica": [
+      "Metallica",
+      "Guns N' Roses",
+      "Los redonditos de Ricota"
+    ],
+    "avatar" : "/avatars/Gaby.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Damián",
+    "ciudad": "Tigre",
+    "edad": 23,
+    "habilidades": [
+      "SQL",
+      "Django",
+      "Python",
+      "Docker"
+    ],
+    "peliculas": [
+      "Pulp Fiction",
+      "Inception",
+      "The Dark Knight"
+    ],
+    "musica": [
+      "Metallica",
+      "AC/DC",
+      "La Renga"
+    ],
+    "avatar" : "/avatars/Dami.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Belén",
+    "ciudad": "San Fernando",
+    "edad": 21,
+    "habilidades": [
+      "UX/UI",
+      "Figma",
+      "CSS",
+      "HTML"
+    ],
+    "peliculas": [
+      "La La Land",
+      "Amelie",
+      "Orgullo y Prejuicio"
+    ],
+    "musica": [
+      "Shakira",
+      "Taylor Swift",
+      "Soda Stereo"
+    ],
+    "avatar" : "/avatars/Belen.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Emiliano",
+    "ciudad": "Vicente Lopez",
+    "edad": 25,
+    "habilidades": [
+      "Java",
+      "Spring",
+      "Git",
+      "React"
+    ],
+    "peliculas": [
+      "Star Wars",
+      "Matrix",
+      "El Padrino"
+    ],
+    "musica": [
+      "Queen",
+      "Pink Floyd",
+      "Charly García"
+    ],
+    "avatar" : "/avatars/Emi.jpg"
+  }
+]

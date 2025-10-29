@@ -1,0 +1,88 @@
+/* 🎬 Sección principal */
+.dl {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.dl h1 {
+  color: #a5f3fc;
+  text-shadow: 0 0 10px #22d3ee99;
+  margin-bottom: 0.5rem;
+}
+
+
+.dl__input {
+  width: 90%;
+  max-width: 480px;
+  padding: 0.8rem 1rem;
+  border: 2px solid transparent;
+  border-radius: 25px;
+  background: linear-gradient(#0f172a, #0f172a) padding-box,
+              linear-gradient(90deg, #00eaff, #22d3ee, #00eaff) border-box;
+  background-size: 200% 100%;
+  color: #e2f1f8;
+  font-size: 1rem;
+  margin: 1.5rem 0;
+  outline: none;
+  animation: borderMove 4s linear infinite;
+  transition: box-shadow 0.3s;
+}
+
+.dl__input::placeholder {
+  color: #94a3b8;
+}
+
+.dl__input:focus {
+  box-shadow: 0 0 15px #22d3ee66;
+}
+
+
+@keyframes borderMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  justify-content: center;
+}
+
+
+.filtros {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.botonFiltro {
+  background: transparent;
+  border: 1px solid #22d3ee99;
+  border-radius: 20px;
+  padding: 0.4rem 0.9rem;
+  color: #e2f1f8;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+  text-shadow: 0 0 5px #22d3ee55;
+}
+
+.botonFiltro:hover {
+  background-color: #22d3ee33;
+  box-shadow: 0 0 8px #22d3ee66;
+  transform: scale(1.05);
+}
+
+.activo {
+  background: linear-gradient(90deg, #00eaff, #22d3ee);
+  color: #0f172a;
+  box-shadow: 0 0 10px #22d3eeaa;
+}

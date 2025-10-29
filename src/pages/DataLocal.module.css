@@ -1,0 +1,74 @@
+.container {
+  padding: 2rem;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  color: #00eaff;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 0 10px #00eaff;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+/* 🔹 Buscador */
+.input {
+  background-color: #0f172a;
+  border: 1px solid #22d3ee;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  width: 60%;
+  max-width: 400px;
+  margin-bottom: 2rem;
+  transition: box-shadow 0.3s ease;
+}
+
+.input:focus {
+  outline: none;
+  box-shadow: 0 0 10px #22d3ee;
+}
+
+/* 🔹 Botones de filtro */
+.filtros {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.7rem;
+  margin-bottom: 1.5rem;
+}
+
+.botonFiltro {
+  background-color: #0f172a;
+  border: 1px solid #00eaff;
+  color: #00eaff;
+  border-radius: 8px;
+  padding: 0.4rem 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.botonFiltro:hover {
+  background-color: #00eaff;
+  color: #0f172a;
+  box-shadow: 0 0 10px #00eaff;
+}
+
+.activo {
+  background-color: #00eaff;
+  color: #0f172a;
+  box-shadow: 0 0 15px #00ffff;
+}
+
+/* 🔹 Grid */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+

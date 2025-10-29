@@ -1,0 +1,72 @@
+.diagramas-section {
+    background-color: #0b1222;
+    padding: 1.5rem;
+    border-radius: 16px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.diagramas-title {
+    color: #a5f3fc;
+    text-shadow: 0 0 10px #22d3ee99;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.diagramas-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.diagramas-buttons button {
+    margin: 40px 15px;
+    margin-top: 2rem;
+    padding: 0.8rem 1.6rem;
+    font-size: clamp(0.9rem, 2vw, 1.1rem);
+    color: #00ffff;
+    border: 2px solid #00ffffaa;
+    background: transparent;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 0 15px #00ffff55;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    z-index: 3;
+    opacity: 1;
+}
+
+.diagramas-buttons button:hover {
+    color: #0b1222;
+    background: #00ffff;
+    box-shadow: 0 0 30px #00ffffcc, 0 0 60px #00ccff99;
+    transform: scale(1.05);
+}
+
+.diagrama-content {
+    margin-top: 30px;
+    text-align: center;
+    color: #cbd5e1;
+}
+
+.diagrama-content h2 {
+    color: #a5f3fc;
+    margin-bottom: 15px;
+}
+
+.diagrama-content p {
+    max-width: 800px;
+    margin: 0 auto 20px;
+    line-height: 1.6;
+}
+
+.diagrama-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 0 20px #22d3ee55;
+}

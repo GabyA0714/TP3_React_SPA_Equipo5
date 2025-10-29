@@ -1,0 +1,184 @@
+[
+  {
+    
+  "id": 1,
+  "titulo": "Oppenheimer",
+  "categoria": "Drama histórico",
+  "descripcion": "La historia de J. Robert Oppenheimer, el físico detrás del Proyecto Manhattan y la creación de la bomba atómica.",
+  "anio": 2023,
+  "imagen": "https://image.tmdb.org/t/p/w500/bAFmcrGk98h6Le8VxExUMH3bvtP.jpg",
+  "trailer": "https://www.youtube.com/watch?v=uYPbbksJxIg"
+}
+  ,
+  {
+    "id": 2,
+    "titulo": "Avatar",
+    "categoria": "Aventura",
+    "descripcion": "En el planeta Pandora, un exmarine se ve dividido entre seguir órdenes humanas o proteger a los Na'vi.",
+    "anio": 2009,
+    "imagen": "https://image.tmdb.org/t/p/w780/kyeqWdyUXW608qlYkRqosgbbJyK.jpg",
+    "trailer": "https://www.youtube.com/watch?v=5PSNL1qE6VY"
+  },
+  {
+    "id": 3,
+    "titulo": "Interstellar",
+    "categoria": "Ciencia ficción",
+    "descripcion": "Un grupo de astronautas viaja a través de un agujero de gusano para encontrar un nuevo hogar para la humanidad.",
+    "anio": 2014,
+    "imagen": "https://image.tmdb.org/t/p/w780/rAiYTfKGqDCRIIqo664sY9XZIvQ.jpg",
+    "trailer": "https://www.youtube.com/watch?v=zSWdZVtXT7E"
+  },
+  {
+    "id": 4,
+    "titulo": "Titanic",
+    "categoria": "Drama romántico",
+    "descripcion": "Dos jóvenes de diferentes clases sociales se enamoran durante el trágico viaje inaugural del Titanic.",
+    "anio": 1997,
+    "imagen": "https://image.tmdb.org/t/p/w780/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
+    "trailer": "https://www.youtube.com/watch?v=kVrqfYjkTdQ"
+  },
+  {
+    "id": 5,
+    "titulo": "El Señor de los Anillos: La Comunidad del Anillo",
+    "categoria": "Fantasía",
+    "descripcion": "Frodo y sus amigos inician la misión de destruir el Anillo Único para salvar la Tierra Media.",
+    "anio": 2001,
+    "imagen": "https://image.tmdb.org/t/p/w780/56zTpe2xvaA4alU51sRWPoKPYZy.jpg",
+    "trailer": "https://www.youtube.com/watch?v=V75dMMIW2B4"
+  },
+  {
+    "id": 6,
+    "titulo": "Harry Potter y la Piedra Filosofal",
+    "categoria": "Fantasía",
+    "descripcion": "Un niño descubre que es mago y asiste a Hogwarts, donde se enfrentará a misterios y magia.",
+    "anio": 2001,
+    "imagen": "https://image.tmdb.org/t/p/w780/8BTsTfln4jlQrLXUBquXJ0ASQy9.jpg",
+    "trailer": "https://www.youtube.com/watch?v=VyHV0BRtdxo"
+  },
+  {
+    "id": 7,
+    "titulo": "El Rey León",
+    "categoria": "Animación",
+    "descripcion": "Simba, un joven león, debe reclamar su lugar como rey tras la traición de su tío Scar.",
+    "anio": 1994,
+    "imagen": "https://image.tmdb.org/t/p/w780/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg",
+    "trailer": "https://www.youtube.com/watch?v=4sj1MT05lAA"
+  },
+  {
+    "id": 8,
+    "titulo": "Jurassic Park",
+    "categoria": "Ciencia ficción",
+    "descripcion": "Un parque temático con dinosaurios clonados se convierte en una pesadilla cuando las criaturas escapan.",
+    "anio": 1993,
+    "imagen": "https://image.tmdb.org/t/p/w780/9i3plLl89DHMz7mahksDaAo7HIS.jpg",
+    "trailer": "https://www.youtube.com/watch?v=lc0UehYemQA"
+  },
+  {
+    "id": 9,
+    "titulo": "Matrix",
+    "categoria": "Ciencia ficción",
+    "descripcion": "Un programador descubre que su mundo es una simulación creada por máquinas y lidera la rebelión humana.",
+    "anio": 1999,
+    "imagen": "https://image.tmdb.org/t/p/w780/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
+    "trailer": "https://www.youtube.com/watch?v=vKQi3bBA1y8"
+  },
+  {
+    "id": 10,
+    "titulo": "Forrest Gump",
+    "categoria": "Drama",
+    "descripcion": "Un hombre con un gran corazón narra su vida, marcada por eventos históricos y un amor eterno.",
+    "anio": 1994,
+    "imagen": "https://image.tmdb.org/t/p/w780/saHP97rTPS5eLmrLQEcANmKrsFl.jpg",
+    "trailer": "https://www.youtube.com/watch?v=bLvqoHBptjg"
+  },
+  {
+    "id": 11,
+    "titulo": "Gladiador",
+    "categoria": "Acción",
+    "descripcion": "Un general romano es traicionado y busca venganza mientras se convierte en gladiador.",
+    "anio": 2000,
+    "imagen": "https://image.tmdb.org/t/p/w780/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg",
+    "trailer": "https://www.youtube.com/watch?v=owK1qxDselE"
+  },
+  {
+    "id": 12,
+    "titulo": "Avengers: Endgame",
+    "categoria": "Superhéroes",
+    "descripcion": "Los Vengadores se reúnen para revertir el daño causado por Thanos y salvar el universo.",
+    "anio": 2019,
+    "imagen": "https://image.tmdb.org/t/p/w780/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+    "trailer": "https://www.youtube.com/watch?v=TcMBFSGVi1c"
+  },
+  {
+    "id": 13,
+    "titulo": "Black Panther",
+    "categoria": "Superhéroes",
+    "descripcion": "T'Challa regresa a Wakanda para asumir el trono, pero un enemigo desafía su liderazgo.",
+    "anio": 2018,
+    "imagen": "https://image.tmdb.org/t/p/w780/uxzzxijgPIY7slzFvMotPv8wjKA.jpg",
+    "trailer": "https://www.youtube.com/watch?v=xjDjIWPwcPU"
+  },
+  {
+    "id": 14,
+    "titulo": "Spider-Man: No Way Home",
+    "categoria": "Superhéroes",
+    "descripcion": "Peter Parker pide ayuda al Doctor Strange para que el mundo olvide su identidad secreta.",
+    "anio": 2021,
+    "imagen": "https://image.tmdb.org/t/p/w780/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+    "trailer": "https://www.youtube.com/watch?v=JfVOs4VSpmA"
+  },
+  {
+    "id": 15,
+    "titulo": "Coco",
+    "categoria": "Animación",
+    "descripcion": "Miguel sueña con ser músico y viaja al mundo de los muertos para descubrir su legado familiar.",
+    "anio": 2017,
+    "imagen": "https://image.tmdb.org/t/p/w780/gGEsBPAijhVUFoiNpgZXqRVWJt2.jpg",
+    "trailer": "https://www.youtube.com/watch?v=Rvr68u6k5sI"
+  },
+  {
+    "id": 16,
+    "titulo": "Frozen",
+    "categoria": "Animación",
+    "descripcion": "Anna y Elsa descubren el poder del amor y la familia en un reino cubierto de hielo.",
+    "anio": 2013,
+    "imagen": "https://image.tmdb.org/t/p/w780/mINJaa34MtknCYl5AjtNJzWj8cD.jpg",
+    "trailer": "https://www.youtube.com/watch?v=TbQm5doF_Uc"
+  },
+  {
+    "id": 17,
+    "titulo": "Toy Story",
+    "categoria": "Animación",
+    "descripcion": "Los juguetes de Andy cobran vida y enfrentan una crisis cuando llega un nuevo competidor: Buzz Lightyear.",
+    "anio": 1995,
+    "imagen": "https://image.tmdb.org/t/p/w780/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg",
+    "trailer": "https://www.youtube.com/watch?v=rNk1Wi8SvNc"
+  },
+  {
+    "id": 18,
+    "titulo": "Shrek",
+    "categoria": "Animación",
+    "descripcion": "Un ogro gruñón emprende un viaje para rescatar a una princesa con la ayuda de un burro parlante.",
+    "anio": 2001,
+    "imagen": "https://image.tmdb.org/t/p/w780/2yYP0PQjG8zVqturh1BAqu2Tixl.jpg",
+    "trailer": "https://www.youtube.com/watch?v=CwXOrWvPBPk"
+  },
+  {
+    "id": 19,
+    "titulo": "Los Increíbles",
+    "categoria": "Animación",
+    "descripcion": "Una familia de superhéroes intenta llevar una vida normal mientras lucha contra un villano tecnológico.",
+    "anio": 2004,
+    "imagen": "https://image.tmdb.org/t/p/w780/2LqaLgk4Z226KkgPJuiOQ58wvrm.jpg",
+    "trailer": "https://www.youtube.com/watch?v=eZbzbC9285I"
+  },
+  {
+    "id": 20,
+    "titulo": "Encanto",
+    "categoria": "Animación",
+    "descripcion": "La familia Madrigal vive en una casa mágica, donde cada miembro tiene un don... excepto Mirabel.",
+    "anio": 2021,
+    "imagen": "https://image.tmdb.org/t/p/w780/4j0PNHkMr5ax3IA8tjtxcmPU3QT.jpg",
+    "trailer": "https://www.youtube.com/watch?v=CaimKeDcudo"
+  }
+]

@@ -1,0 +1,48 @@
+.integrante-page {
+  text-align: center;
+  padding: 2rem;
+  color: #e2f1f8;
+}
+
+.perfil-avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #22d3eeaa;
+  box-shadow: 0 0 20px #22d3ee55;
+  margin-bottom: 1rem;
+}
+
+.perfil-ciudad {
+  color: #94a3b8;
+  font-style: italic;
+  margin-bottom: 1.2rem;
+}
+
+.perfil-info {
+  max-width: 600px;
+  margin: 0 auto 1.5rem;
+  background: #0b1222;
+  padding: 1.2rem;
+  border-radius: 16px;
+  box-shadow: 0 0 20px #22d3ee22;
+}
+
+.perfil-info h3 {
+  color: #a5f3fc;
+  margin-top: 1rem;
+}
+
+.perfil-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.3rem 0 1rem;
+}
+
+.perfil-info li {
+  background: #0f172a;
+  margin: 0.3rem 0;
+  padding: 0.4rem 0.6rem;
+  border-radius: 8px;
+}
