@@ -92,7 +92,7 @@ src/
 ---
 
 ## 🌐 Deploy en Vercel
-🔗 [Ver proyecto en línea](https://tp3-react-spa-equipo5.vercel.app)
+🔗 [Ver proyecto en línea](https://tp3-equipo17vercelapp.vercel.app/)
 
 ---
 
