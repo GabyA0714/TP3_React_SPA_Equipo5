@@ -1,34 +1,82 @@
+/* --- TEMA OSCURO DE BASE --- */
 :root {
-    /* Colors */
-    --bg: #0f172a;
-    --panel: #111827;
-    --text: #e5e7eb;
-    --muted: #9ca3af;
-    --brand: #22d3ee;
+  /* Colores de base en tema oscuro */
+  --bg: #0f172a;
+  --panel: #111827;
+  --text: #e5e7eb;
+  --muted: #959eaa;
 
-    /* spacing */
-    --space-xs: 0.25rem;
-    --space-sm: 0.50rem;
-    --space-md: 0.75rem;
-    --space-lg: 1rem;
-    --space-xl: 2rem;
+  /* Colores neon*/
+  --brand-main: #22d3ee;
+  --brand-light: #00eaff;
+  --brand-glow-low: #314555a1;
+  --brand-glow-med: #22d3ee99;
+  --brand-glow-high: #00ffffcc;
 
-    /* Radius */
-    --radius-xs: 0.25rem;
-    --radius-sm: 0.50rem;
-    --radius-md: 0.75rem;
-    --radius-lg: 1rem;
-    --radius-xl: 2rem;
+  /* Bordes y fondos */
+  --input-bg: #0b1220;
+  --input-border: #212935;
+  --card-bg-light: #0b1222;
+  --card-shadow: #1bbdd665;
 
-    /* Shadows */
-    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
-    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
-    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.15);
+  /* spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.50rem;
+  --space-md: 0.75rem;
+  --space-lg: 1rem;
+  --space-xl: 2rem;
 
-    /* Transitions */
-    --transition-fast: all 0.2s ease-in-out;
-    
-    /* Fonts */
-    --font-size-base: 1rem;
-    --font-size-lg: 1.1rem;
+  /* Radius */
+  --radius-xs: 0.25rem;
+  --radius-sm: 0.50rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 2rem;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.15);
+
+  /* Transitions */
+  --transition-fast: all 0.2s ease-in-out;
+
+  /* Fonts */
+  --font-size-base: 1rem;
+  --font-size-lg: 1.1rem;
+
+  /* --- Para la Portada (Portal Lunar) --- */
+  --portal-color-1: #00ccff;
+  --portal-color-2: #00ffff;
+  --portal-color-3: #00ff99;
+  --portal-color-4: #00ffcc;
+}
+
+
+/* --- TEMA CLARO --- */
+.light-theme {
+  --bg: #ffe8c6;
+  --text: #a34100;
+  --muted: #6d6d6d;
+  --panel: #ffe8c6;
+  --card-bg-light: #FFFCF2;
+  --card-shadow: #ffc10740;
+
+  --input-bg: #FFFFFF;
+  --input-border: #ffc77486;
+
+  --brand-main: #ff7b00fd;
+  --brand-light: #ff9900dc;
+  --brand-dark: hsl(19, 81%, 45%);
+
+  /* --- Glows y Sombras (Efecto Solar Brillante) --- */
+  --brand-glow-low: #fda80a23;
+  --brand-glow-med: #ff9900ea;
+  --brand-glow-high: #ffbb00fd;
+
+  /* --- Para la Portada (Portal Solar) --- */
+  --portal-color-1: #ff7b00e0;
+  --portal-color-2: #ffa600;
+  --portal-color-3: #ffc400;
+  --portal-color-4: #f0d853;
 }

@@ -15,6 +15,6 @@
 }
 
 .list :global(a.active) {
-  background: #1f2937;
-  color: var(--brand);
-}
+  background: var(--input-border);
+  color: var(--brand-main);
+} 

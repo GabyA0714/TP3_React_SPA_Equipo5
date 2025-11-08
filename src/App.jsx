@@ -11,6 +11,7 @@ import DataAPI from './pages/DataAPI.jsx';
 import Diagramas from './pages/Diagramas.jsx';
 import NotFound from './pages/NotFound.jsx';
 import portalSound from '/portal-sfx.mp3'; // 🎵 sonido global
+import ThemeToggle from './components/Toggle/ThemeToggle.jsx';
 
 export default function App() {
   // === 🎵 Control global del sonido ===
@@ -82,6 +83,10 @@ export default function App() {
       >
         {soundOn ? '🔊' : '🔇'}
       </button>
+
+      {/* boton global de tema claro y oscuro */}
+      <ThemeToggle />
+
     </div>
   );
 }

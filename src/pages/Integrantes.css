@@ -4,13 +4,13 @@
 }
 
 .integrantes-page h1 {
-  color: #a5f3fc;
-  text-shadow: 0 0 10px #22d3ee99;
+  color: var(--brand-main);
+  text-shadow: 0 0 10px var(--brand-glow-med);
   margin-bottom: 0.5rem;
 }
 
 .integrantes-page p {
-  color: #94a3b8;
+  color: var(--muted);
   margin-bottom: 1.5rem;
 }
 
@@ -26,6 +26,7 @@
   color: inherit;
   transition: transform 0.2s ease;
 }
+
 .card-link:hover {
   transform: scale(1.03);
 }
