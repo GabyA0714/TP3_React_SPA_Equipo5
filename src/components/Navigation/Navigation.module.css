@@ -27,7 +27,7 @@
 } 
 
 .utilityButtons {
-  margin-bottom: var(--space-xl);
+  margin-bottom: var(--space-2xl);
   display: flex;
   align-items: center;
   flex-direction: column;
