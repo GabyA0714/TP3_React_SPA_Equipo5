@@ -4,19 +4,19 @@
 }
 
 .api h1 {
-  color: #a5f3fc;
-  text-shadow: 0 0 10px #22d3ee99;
+  color: var(--brand-main);
+  text-shadow: 0 0 10px var(--brand-glow-med);
   margin-bottom: 0.5rem;
 }
 
 .api p {
-  color: #94a3b8;
+  color: var(--muted);
   margin-bottom: 1.5rem;
 }
 
 .api details {
-  background: #1e293b;
-  border: 1px solid #334155;
+  background: var(--panel);
+  border: 1px solid var(--input-border);
   border-radius: 0.5rem;
   padding: 1rem;
   text-align: left;
@@ -25,22 +25,23 @@
 }
 
 .dataapi-container {
-  color: #f8fafc;
+  color: var(--text);
   padding: 2rem;
   text-align: center;
 }
 
 .dataapi-container h1 {
-  color: #22d3ee;
+  color: var(--brand-main);
   margin-bottom: 1rem;
 }
+
 
 .input {
   padding: 0.5rem 1rem;
   border-radius: 8px;
-  border: 1px solid #22d3ee;
-  background-color: #0f172a;
-  color: #e2e8f0;
+  border: 1px solid var(--brand-main);
+  background-color: var(--bg);
+  color: var(--text);
   margin-bottom: 1.5rem;
   width: 250px;
 }

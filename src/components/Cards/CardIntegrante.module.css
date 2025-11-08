@@ -1,17 +1,16 @@
 .card {
-  background: #0b1222;
-  border: 1px solid #22d3ee55;
+  background: var(--card-bg-light);
+  border: 1px solid var(--brand-glow-high);
   border-radius: 16px;
   padding: 1rem;
   text-align: center;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  color: #e2f1f8;
-  box-shadow: 0 0 20px #22d3ee22;
+  color: var(--text);
 }
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 0 30px #22d3ee44;
+  box-shadow: 0 0 30px var(--brand-glow-med);
 }
 
 .avatar {
@@ -20,18 +19,18 @@
   object-fit: cover;
   border-radius: 50%;
   margin-bottom: 0.75rem;
-  border: 2px solid #22d3eeaa;
-  box-shadow: 0 0 15px #22d3ee55;
+  border: 2px solid var(--brand-glow-med);
+  box-shadow: 0 0 15px var(--brand-glow-med);
 }
 
 .info h3 {
   margin: 0.5rem 0;
-  color: #a5f3fc;
+  color: var(--brand-main);
   font-size: 1.3rem;
 }
 
 .ciudad {
-  color: #94a3b8;
+  color: var(--text-muted);
   margin-bottom: 0.5rem;
   font-style: italic;
 }

@@ -1,5 +1,4 @@
 .diagramas-section {
-    background-color: #0b1222;
     padding: 1.5rem;
     border-radius: 16px;
     margin: 0 auto;
@@ -7,8 +6,8 @@
 }
 
 .diagramas-title {
-    color: #a5f3fc;
-    text-shadow: 0 0 10px #22d3ee99;
+    color: var(--brand-main);
+    text-shadow: 0 0 10px var(--brand-glow-med);
     margin-bottom: 0.5rem;
     text-align: center;
 }
@@ -25,15 +24,15 @@
     margin-top: 2rem;
     padding: 0.8rem 1.6rem;
     font-size: clamp(0.9rem, 2vw, 1.1rem);
-    color: #00ffff;
-    border: 2px solid #00ffffaa;
+    color: var(--brand-light);
+    border: 2px solid var(--brand-glow-med);
     background: transparent;
     border-radius: 50px;
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    box-shadow: 0 0 15px #00ffff55;
+    box-shadow: 0 0 15px var(--brand-glow-low);
     transition: all 0.4s ease;
     cursor: pointer;
     z-index: 3;
@@ -41,20 +40,20 @@
 }
 
 .diagramas-buttons button:hover {
-    color: #0b1222;
-    background: #00ffff;
-    box-shadow: 0 0 30px #00ffffcc, 0 0 60px #00ccff99;
+    color: var(--card-bg-light);
+    background: var(--brand-main);
+    box-shadow: 0 0 30px var(--brand-glow-high), 0 0 60px var(--brand-glow-med);
     transform: scale(1.05);
 }
 
 .diagrama-content {
     margin-top: 30px;
     text-align: center;
-    color: #cbd5e1;
+    color: var(--text);
 }
 
 .diagrama-content h2 {
-    color: #a5f3fc;
+    color: var(--brand-main);
     margin-bottom: 15px;
 }
 
@@ -68,5 +67,5 @@
     max-width: 100%;
     height: auto;
     border-radius: 12px;
-    box-shadow: 0 0 20px #22d3ee55;
+    box-shadow: 0 0 20px var(--brand-glow-med);
 }

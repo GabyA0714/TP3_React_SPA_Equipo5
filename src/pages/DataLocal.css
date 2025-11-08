@@ -5,8 +5,8 @@
 }
 
 .dl h1 {
-  color: #a5f3fc;
-  text-shadow: 0 0 10px #22d3ee99;
+  color: var(--brand-main);
+  text-shadow: 0 0 10px var(--brand-glow-med);
   margin-bottom: 0.5rem;
 }
 
@@ -17,10 +17,9 @@
   padding: 0.8rem 1rem;
   border: 2px solid transparent;
   border-radius: 25px;
-  background: linear-gradient(#0f172a, #0f172a) padding-box,
-              linear-gradient(90deg, #00eaff, #22d3ee, #00eaff) border-box;
+  background: linear-gradient(var(--bg), var(--bg)) padding-box, linear-gradient(90deg, var(--brand-glow-med), var(--brand-main), var(--brand-light)) border-box;
   background-size: 200% 100%;
-  color: #e2f1f8;
+  color: var(--text);
   font-size: 1rem;
   margin: 1.5rem 0;
   outline: none;
@@ -29,18 +28,18 @@
 }
 
 .dl__input::placeholder {
-  color: #94a3b8;
+  color: var(--muted);
 }
 
 .dl__input:focus {
-  box-shadow: 0 0 15px #22d3ee66;
+  box-shadow: 0 0 15px var(--brand-glow-med);
 }
-
 
 @keyframes borderMove {
   0% {
     background-position: 0% 50%;
   }
+
   100% {
     background-position: 200% 50%;
   }
@@ -65,24 +64,38 @@
 
 .botonFiltro {
   background: transparent;
-  border: 1px solid #22d3ee99;
+  border: 1px solid var(--brand-glow-med);
   border-radius: 20px;
   padding: 0.4rem 0.9rem;
-  color: #e2f1f8;
+  color: var(--text);
   cursor: pointer;
   transition: all 0.3s ease;
   font-size: 0.9rem;
-  text-shadow: 0 0 5px #22d3ee55;
+  text-shadow: 0 0 5px var(--brand-glow-low);
 }
 
 .botonFiltro:hover {
-  background-color: #22d3ee33;
-  box-shadow: 0 0 8px #22d3ee66;
+  background-color: var(--brand-glow-low);
+  box-shadow: 0 0 8px var(--brand-glow-med);
   transform: scale(1.05);
 }
 
 .activo {
-  background: linear-gradient(90deg, #00eaff, #22d3ee);
-  color: #0f172a;
-  box-shadow: 0 0 10px #22d3eeaa;
+  background: linear-gradient(90deg, var(--brand-light), var(--brand-main));
+  color: var(--bg);
+  box-shadow: 0 0 10px var(--brand-glow-high);
+}
+
+.light-theme .dl__input {
+    background: linear-gradient(var(--card-bg-light), var(--card-bg-light)) padding-box, linear-gradient(90deg, var(--brand-glow-low), var(--brand-glow-med), var(--brand-dark)) border-box;
+    background-size: 200% 100%; 
+    animation: borderMove 4s linear infinite;
+}
+
+.light-theme .dl__input:focus {
+    box-shadow: 0 0 15px var(--brand-glow-med);
+}
+
+.light-theme .dl__input::placeholder {
+    color: var(--muted);
 }

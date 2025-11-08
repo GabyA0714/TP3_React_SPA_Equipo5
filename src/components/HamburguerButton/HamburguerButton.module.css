@@ -3,7 +3,7 @@
   background: none;
   border: none;
   font-size: 2rem;
-  color: #00eaff;
+  color: var(--brand-light);
   cursor: pointer;
   position: fixed; 
   top: 15px;
@@ -12,7 +12,7 @@
 }
 
 .hamburger:focus {
-  outline: 2px solid #00eaff;
+  outline: 2px solid var(--brand-light);
 }
 
 @media (max-width: 768px) {

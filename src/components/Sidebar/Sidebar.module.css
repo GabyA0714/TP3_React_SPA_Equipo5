@@ -1,5 +1,5 @@
 .sidebar {
-  background-color: #0f172a; /* azul oscuro */
+  background-color: var(--bg);
   min-height: 100vh;
   width: 250px;
   display: flex;

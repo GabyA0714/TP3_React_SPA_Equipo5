@@ -35,7 +35,7 @@ export default function Portada() {
     const portal = document.querySelector(".portal-circle");
     if (portal) {
       portal.classList.add("flash");
-      setTimeout(() => portal.classList.remove("flash"), 7000);
+      setTimeout(() => portal.classList.remove("flash"), 8000);
     }
   }, []);
 
