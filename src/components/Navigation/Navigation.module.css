@@ -24,7 +24,7 @@
 .list :global(a.active) {
   background: var(--input-border);
   color: var(--brand-main);
-} 
+}
 
 .utilityButtons {
   margin-bottom: var(--space-2xl);
@@ -33,4 +33,17 @@
   flex-direction: column;
   gap: var(--space-sm);
   justify-content: center;
+}
+
+
+@media (max-width: 768px) {
+
+  .navContainer {
+    justify-content: flex-start;
+  }
+
+  .utilityButtons {
+    margin-top: var(--space-2xl);
+  }
+
 }
