@@ -284,7 +284,15 @@
 }
 
 /* Adaptación móvil */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+
+
+  .portada{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+
+  }
+
   .portal-container {
     width: 200px;
     height: 200px;
