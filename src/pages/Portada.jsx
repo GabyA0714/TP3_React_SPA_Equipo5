@@ -1,4 +1,5 @@
 import { useEffect, useState, useRef } from "react";
+import { NavLink } from 'react-router-dom';
 import "./Portada.css";
 import rick from "/rick.png";
 import morty from "/morty.png";
@@ -33,7 +34,7 @@ export default function Portada() {
 
       <p className="portal-subtext">Bienvenidos al multiverso del Front-End</p>
 
-      <GlowingButton as="a" variant="multiverso" href="/integrantes">
+      <GlowingButton as={NavLink} variant="multiverso" to="/integrantes">
         Ingresar al Multiverso
       </GlowingButton>
 
