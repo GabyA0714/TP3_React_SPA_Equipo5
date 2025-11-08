@@ -5,12 +5,15 @@ import { BrowserRouter } from 'react-router-dom'
 import App from './App.jsx'
 import './styles/index.css'
 import { ThemeProvider } from './contexts/ThemeContext.jsx'
+import { SoundProvider } from './contexts/SoundContext.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
       <ThemeProvider>
-        <App />
+        <SoundProvider>
+          <App />
+        </SoundProvider>
       </ThemeProvider>
     </BrowserRouter>
   </React.StrictMode>

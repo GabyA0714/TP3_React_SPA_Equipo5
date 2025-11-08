@@ -1,3 +1,10 @@
+.navContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
 .list {
   list-style: none;
   padding: 0;
@@ -18,3 +25,12 @@
   background: var(--input-border);
   color: var(--brand-main);
 } 
+
+.utilityButtons {
+  margin-bottom: var(--space-xl);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: var(--space-sm);
+  justify-content: center;
+}

@@ -1,14 +1,15 @@
 /* === 🌌 Fondo general === */
 .portada {
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   background: radial-gradient(circle at center, var(--panel) 0%, var(--bg) 100%);
   overflow: hidden;
   position: relative;
   color: var(--text);
+  padding-top: 15vh;
 }
 
 /* 🌠 Estrellas animadas */
@@ -183,57 +184,10 @@
   z-index: 3;
 }
 
-/* Botón Multiverso */
-.btn-multiverso {
-  margin-top: 2rem;
-  padding: 0.8rem 1.6rem;
-  font-size: clamp(0.9rem, 2vw, 1.1rem);
-  color: var(--brand-light);
-  border: 2px solid var(--brand-glow-med);
-  border-radius: 50px;
-  background: transparent;
-  text-decoration: none;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  box-shadow: 0 0 15px var(--brand-glow-low);
-  transition: all 0.4s ease;
-  z-index: 3;
-  opacity: 0;
+.btn-sound-theme {
   animation: fadeInText 2s ease-out forwards 2s;
 }
 
-.btn-multiverso:hover {
-  color: var(--bg);
-  background: var(--brand-main);
-  box-shadow: 0 0 30px var(--brand-glow-high), 0 0 60px var(--brand-glow-med);
-  transform: scale(1.05);
-}
-
-/* 🔉 Botón de sonido */
-.btn-sound {
-  margin-top: 2.5rem;
-  /* 🔽 más espacio respecto al botón anterior */
-  padding: 0.6rem 1.4rem;
-  background: transparent;
-  border: 2px solid var(--brand-glow-med);
-  color: var(--brand-light);
-  border-radius: 30px;
-  cursor: pointer;
-  font-weight: bold;
-  letter-spacing: 1px;
-  transition: all 0.3s ease;
-  z-index: 5;
-  opacity: 0;
-  animation: fadeInText 2s ease-out forwards 2s;
-}
-
-.btn-sound:hover {
-  background: var(--brand-main);
-  color: var(--bg);
-  box-shadow: 0 0 25px var(--brand-glow-high), 0 0 50px var(--brand-glow-med);
-  transform: scale(1.05);
-}
 
 /* 👽 Rick & Morty */
 .rick,

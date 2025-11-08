@@ -19,32 +19,6 @@
     margin-top: 20px;
 }
 
-.diagramas-buttons button {
-    margin: 40px 15px;
-    margin-top: 2rem;
-    padding: 0.8rem 1.6rem;
-    font-size: clamp(0.9rem, 2vw, 1.1rem);
-    color: var(--brand-light);
-    border: 2px solid var(--brand-glow-med);
-    background: transparent;
-    border-radius: 50px;
-    text-decoration: none;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    box-shadow: 0 0 15px var(--brand-glow-low);
-    transition: all 0.4s ease;
-    cursor: pointer;
-    z-index: 3;
-    opacity: 1;
-}
-
-.diagramas-buttons button:hover {
-    color: var(--card-bg-light);
-    background: var(--brand-main);
-    box-shadow: 0 0 30px var(--brand-glow-high), 0 0 60px var(--brand-glow-med);
-    transform: scale(1.05);
-}
 
 .diagrama-content {
     margin-top: 30px;

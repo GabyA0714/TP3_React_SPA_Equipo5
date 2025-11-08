@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import './Diagramas.css';
+import GlowingButton from '../components/Button/GlowingButton.jsx';
 
 const diagramasData = {
     Arbol_Renderizado: {
@@ -22,9 +23,9 @@ export default function Diagramas() {
         <h1 className="diagramas-title">📊 Diagramas del Proyecto</h1>
         <div className="diagramas-buttons">
             {Object.keys(diagramasData).map((key) => (
-                <button key={key} onClick={() => setActiveDiagram(key)}>
+                <GlowingButton variant="diagrama" key={key} onClick={() => setActiveDiagram(key)}>
                     {diagramasData[key].title}
-                </button>
+                </GlowingButton>
             ))}
         </div>
         <div className="diagrama-content">
