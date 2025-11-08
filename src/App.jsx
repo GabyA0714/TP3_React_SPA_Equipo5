@@ -11,31 +11,15 @@ import DataAPI from './pages/DataAPI.jsx';
 import Diagramas from './pages/Diagramas.jsx';
 import NotFound from './pages/NotFound.jsx';
 import portalSound from '/portal-sfx.mp3'; // 🎵 sonido global
-import ThemeToggle from './components/Toggle/ThemeToggle.jsx';
+import { useTheme } from './contexts/ThemeContext.jsx';
+import { useSound } from './contexts/SoundContext.jsx';
 
 export default function App() {
-  // === 🎵 Control global del sonido ===
-  const [soundOn, setSoundOn] = useState(true);
-  const audioRef = useRef(null);
 
-  useEffect(() => {
-    if (!audioRef.current) {
-      audioRef.current = new Audio(portalSound);
-      audioRef.current.loop = true;
-      audioRef.current.volume = 0.4;
-      audioRef.current.play().catch(() => {});
-    }
 
-    if (soundOn) {
-      audioRef.current.play().catch(() => {});
-    } else {
-      audioRef.current.pause();
-    }
-  }, [soundOn]);
+  const { soundOn, toggleSound } = useSound();
+  const { theme, toggleTheme } = useTheme();
 
-  const toggleSound = () => {
-    setSoundOn(!soundOn);
-  };
 
   // === 🎛️ Control del menú ===
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -60,7 +44,14 @@ export default function App() {
   return (
     <div className="app">
       <HamburgerButton isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
-      <Sidebar isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
+      <Sidebar 
+        isMenuOpen={isMenuOpen} 
+        toggleMenu={toggleMenu}
+        soundOn={soundOn}
+        toggleSound={toggleSound}
+        theme={theme}
+        toggleTheme={toggleTheme}
+      />
       <main className="content">
         <Routes>
           <Route path="/" element={<Portada />} />
@@ -74,18 +65,6 @@ export default function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
-
-      {/* 🔊 Botón global de sonido */}
-      <button
-        className={`btn-sound ${soundOn ? 'active' : 'off'}`}
-        onClick={toggleSound}
-        title={soundOn ? 'Silenciar música' : 'Activar música'}
-      >
-        {soundOn ? '🔊' : '🔇'}
-      </button>
-
-      {/* boton global de tema claro y oscuro */}
-      <ThemeToggle />
 
     </div>
   );

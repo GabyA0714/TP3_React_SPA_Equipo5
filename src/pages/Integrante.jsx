@@ -29,7 +29,7 @@ export default function Integrante() {
         <ul>{p.musica.map((mus, i) => <li key={i}>{mus}</li>)}</ul>
 
         <h3>💡 Habilidades</h3>
-        <p>{p.habilidades.join(", ")}</p>
+        <ul>{p.habilidades.map((hab, i) => <li key={i}>{hab}</li>)}</ul>
       </div>
 
       <Button url="/integrantes" text="← Volver a Integrantes" />

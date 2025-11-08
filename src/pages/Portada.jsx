@@ -3,33 +3,15 @@ import "./Portada.css";
 import rick from "/rick.png";
 import morty from "/morty.png";
 import portalSound from "/portal-sfx.mp3";
+import { useSound } from "../contexts/SoundContext";
+import { useTheme } from "../contexts/ThemeContext.jsx"
+import GlowingButton from '../components/Button/GlowingButton.jsx';
 
 export default function Portada() {
-  const [soundOn, setSoundOn] = useState(true);
-  const audioRef = useRef(null);
+  const { soundOn, toggleSound } = useSound();
+  const { theme, toggleTheme } = useTheme();
 
-  // 🔊 Maneja el sonido
-  useEffect(() => {
-    if (!audioRef.current) {
-      audioRef.current = new Audio(portalSound);
-      audioRef.current.loop = true; // se repite en bucle
-      audioRef.current.volume = 0.4;
-    }
-
-    if (soundOn) {
-      audioRef.current.play().catch(() => {});
-    } else {
-      audioRef.current.pause();
-    }
-
-    // Limpieza al desmontar el componente
-    return () => {
-      if (audioRef.current) {
-        audioRef.current.pause();
-      }
-    };
-  }, [soundOn]);
-
+  
   // ✨ Efecto visual del portal
   useEffect(() => {
     const portal = document.querySelector(".portal-circle");
@@ -39,9 +21,6 @@ export default function Portada() {
     }
   }, []);
 
-  const toggleSound = () => {
-    setSoundOn(prev => !prev);
-  };
 
   return (
     <section className="portada">
@@ -54,18 +33,23 @@ export default function Portada() {
 
       <p className="portal-subtext">Bienvenidos al multiverso del Front-End</p>
 
-      <a href="/integrantes" className="btn-multiverso">
+      <GlowingButton as="a" variant="multiverso" href="/integrantes">
         Ingresar al Multiverso
-      </a>
+      </GlowingButton>
 
-      <button
-      className={`btn-sound ${soundOn ? "active" : "off"}`}
-      onClick={toggleSound}
->
-      {soundOn ? "Sonido ON" : "Sonido OFF"}
-      </button>
+      <GlowingButton 
+         variant="sound-theme"
+         onClick={toggleSound}
+        >
+         {soundOn ? "Sonido ON" : "Sonido OFF"}
+      </GlowingButton>
 
-
+      <GlowingButton 
+         variant="sound-theme"
+         onClick={toggleTheme}
+        >
+         {theme === "light" ? "Modo Oscuro" : "Modo Claro"}
+      </GlowingButton>
 
       <img src={rick} alt="Rick" className="rick" />
       <img src={morty} alt="Morty" className="morty" />
