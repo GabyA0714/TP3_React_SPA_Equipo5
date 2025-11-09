@@ -7,4 +7,14 @@
   font-weight: 600;
   border-radius: var(--space-sm);
   text-decoration: none;
+  border: 2px solid var(--brand-glow-med);   /* igual que glowing-btn */
+  box-shadow: 0 0 15px var(--brand-glow-low); /* glow inicial */
+  transition: all 0.4s ease;                  /* suaviza cambios */
+}
+
+.btn:hover {
+  color: var(--bg);
+  background: var(--brand-main);
+  box-shadow: 0 0 30px var(--brand-glow-high), 0 0 60px var(--brand-glow-med);
+  transform: scale(1.05); /* efecto de agrandarse un poco */
 }
