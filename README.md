@@ -59,6 +59,11 @@ El sonido se reproduce automáticamente al ingresar y puede controlarse con un s
 ### 🔹 Mejora 3 – Control de Tema Global y Persistencia
 Se implementó el Modo Claro / Oscuro mediante la arquitectura de estado global de React, permitiendo al usuario personalizar la interfaz de la aplicación de manera persistente.
 
+#### 🖼️ Comparativa visual
+| Modo Oscuro | Modo Claro |
+|:--:|:--:|
+| ![Modo Oscuro](./src/assets/TemaOscuro.png) | ![Modo Claro](./src/assets/TemaClaro.png) |
+
 **Detalles técnicos:**
 - **Estado Global (React Context):** Se utilizó la arquitectura de React Context `createContext` y `useContext` para centralizar el estado del tema (light o dark), haciendo que la preferencia sea accesible de forma directa por cualquier componente en la jerarquía (evitando el prop drilling).
 - **Persistencia (`localStorage`):** Se integró el *Hook* `useEffect` para:
@@ -71,6 +76,11 @@ Se implementó el Modo Claro / Oscuro mediante la arquitectura de estado global 
 ### 🔹 Mejora 4 – Navegador Lateral Funcional y Fondos Temáticos Dinámicos (María Belén Cantarini Echezarreta)
 
 Se optimizó la usabilidad del sitio a través del rediseño del navegador lateral y se incrementó el dinamismo visual mediante fondos reactivos al tema.
+
+#### 🖼️ Comparativa visual
+| Estrellas | Meteoros |
+|:--:|:--:|
+| ![Estrellas](./src/assets/FondoEstrellas.png) | ![Meteoros](./src/assets/FondoMeteoros.png) |
 
 **Detalles técnicos:**
 
