@@ -54,6 +54,33 @@ El sonido se reproduce automáticamente al ingresar y puede controlarse con un s
 - Volumen ajustado al 40% para una experiencia más suave.
 
 ---
+## ✨ Mejoras Realizadas por Damian Gomez De Leo
+
+### 🔹 Mejora 3 – Control de Tema Global y Persistencia
+Se implementó el Modo Claro / Oscuro mediante la arquitectura de estado global de React, permitiendo al usuario personalizar la interfaz de la aplicación de manera persistente.
+
+**Detalles técnicos:**
+- **Estado Global (React Context):** Se utilizó la arquitectura de React Context `createContext` y `useContext` para centralizar el estado del tema (light o dark), haciendo que la preferencia sea accesible de forma directa por cualquier componente en la jerarquía (evitando el prop drilling).
+- **Persistencia (`localStorage`):** Se integró el *Hook* `useEffect` para:
+    1.  Recuperar el último tema guardado desde `localStorage` al montar el componente.
+    2.  Guardar el nuevo tema en `localStorage.setItem('theme', nuevoTema)`.
+---
+
+## ✨ Mejoras Realizadas por Maria Belen Cantarini Echezarreta
+
+### 🔹 Mejora 4 – Navegador Lateral Funcional y Fondos Temáticos Dinámicos (María Belén Cantarini Echezarreta)
+
+Se optimizó la usabilidad del sitio a través del rediseño del navegador lateral y se incrementó el dinamismo visual mediante fondos reactivos al tema.
+
+**Detalles técnicos:**
+
+* **Navegación Intuitiva:** Se implementaron botones dentro del *Sidebar* para los nuevos controles de **Sonido y Tema** y que estos se muestren consistentemente..
+* **Fondos Reactivos:** Se crearon estilos de fondo animados y contrastantes, controlados por el **Theme Context** global:
+    * **Modo Oscuro:** Uso de fondos con animaciones de **estrellas** para una inmersión nocturna.
+    * **Modo Claro:** Uso de fondos con animaciones de **lluvia de meteoros** para su versión diurna. 
+* **Modularización:** El componente de fondo se diseñó para inyectarse dinámicamente y reaccionar instantáneamente al cambio de estado del tema.
+
+---
 
 ## 🧩 Estructura de Componentes
 
