@@ -59,7 +59,7 @@ El sonido se reproduce automáticamente al ingresar y puede controlarse con un s
 ### 🔹 Mejora 3 – Control de Tema Global y Persistencia
 Se implementó el Modo Claro / Oscuro mediante la arquitectura de estado global de React, permitiendo al usuario personalizar la interfaz de la aplicación de manera persistente.
 
-#### 🖼️ Comparativa visual
+Se mejoró el botón de retorno a la vista de integrantes, agregando un efecto de entrada y glow para integrarlo visualmente con el estilo multiverso del sitio.
 | Modo Oscuro | Modo Claro |
 |:--:|:--:|
 | ![Modo Oscuro](./src/assets/TemaOscuro.png) | ![Modo Claro](./src/assets/TemaClaro.png) |
@@ -91,6 +91,36 @@ Se optimizó la usabilidad del sitio a través del rediseño del navegador later
 * **Modularización:** El componente de fondo se diseñó para inyectarse dinámicamente y reaccionar instantáneamente al cambio de estado del tema.
 
 ---
+
+## ✨ Mejoras Realizadas por Emiliano Nuñez
+
+### 🔹 Mejora 5  – Animación de Entrada en Vista Individual de Integrantes (Emiliano Nuñez)
+
+Se implementó una animación escalonada para la vista individual de cada integrante, mejorando la experiencia visual al abrir su perfil.
+La entrada incluye efectos de fade y desplazamiento para el avatar, nombre, ciudad y secciones de contenido, generando una transición suave y coherente con el estilo del sitio.
+
+**Detalles técnicos:**
+- Animación @keyframes fadelInItem aplicada con animation-delay escalonado.
+- Clases CSS específicas para cada elemento (perfil-avatar, perfil-nombre, etc.).
+- Integración directa en Integrante.jsx y Integrante.css .
+- Mejora visual sin afectar el rendimiento ni la estructura del componente.
+
+---
+
+### 🔹 Mejora 6  – Botón de retorno con efecto visual (Emiliano Nuñez)
+
+Se mejoró el botón de retorno a la vista de integrantes, agregando un efecto de entrada y glow para integrarlo visualmente con el estilo multiverso del sitio.
+
+#### 🖼️ Comparativa visual
+<img width="346" height="90" alt="image" src="https://github.com/user-attachments/assets/868f91e4-2d16-4212-8f58-845d3e47b118" /> 
+
+**Detalles técnicos:**
+- Animación aplicada con animation-delay.
+- Efecto de glow mediante  box-sahdow y transición suave.
+- Clase personalizada para el botón (back ) aplicada en Integrante.jsx .
+
+---
+
 
 ## 🧩 Estructura de Componentes
 
